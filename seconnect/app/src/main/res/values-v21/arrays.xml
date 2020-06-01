@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="authtype">
+        <item >文件证书</item>
+        <item >硬件证书</item>
+    </string-array>
+</resources>

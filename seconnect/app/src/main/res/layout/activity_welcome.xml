@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activity.WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/welcome_img"
+        android:layout_width="wrap_content"
+        android:layout_height="510dp"
+        android:src="@drawable/bg_yjwd"/>
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_marginTop="@dimen/dp_200"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="@dimen/dp_80"
+        android:src="@drawable/defoult_logo"
+        />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_marginTop="@dimen/dp_8"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="云坚万盾"
+        android:textSize="@dimen/sp_18"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@id/img_logo"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_below="@id/tv1"
+        android:textSize="@dimen/sp_18"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="安全接入客户端"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:paddingBottom="@dimen/dp_20"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sp_18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="以我之坚盾 筑云之铜墙"
+        />
+
+</RelativeLayout>
